@@ -1,0 +1,15 @@
+{
+  "name": "first-node-project",
+  "version": "1.0.0",
+  "description": "First Node application for Mad Web Dev Bootcamp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Germán Álvarez",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "faker": "^5.5.3"
+  }
+}

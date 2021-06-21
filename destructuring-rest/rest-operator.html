@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+
+
+
+        // Array or objects (spread operator)
+        const reptiles = ['snake', 'lizard', 'alligator']
+        const mammals = ['puppy', 'kitten', 'bunny']
+
+
+        const animals = [...mammals, 'popino', ...reptiles]
+
+        console.log(animals)
+
+
+
+
+
+        // Function (rest parameters)
+        function showMovie(title, year, ...actors) {
+            console.log('¡Echa un vistazo al prototype, valiente!', actors)
+
+            console.log(`${title} is released in ${year} and in the cast are: ${actors[0]} and ${actors[1]}.`);
+        }
+
+        showMovie('Titanic', '1997', 'Leonardo Di Caprio', 'Kate Winslet')
+
+
+    </script>
+</body>
+
+</html>
